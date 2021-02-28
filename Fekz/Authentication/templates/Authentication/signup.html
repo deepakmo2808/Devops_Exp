@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<head>
+    <link rel="stylesheet" type="text/css" href="static/Authenticationcss/util.css">
+	<link rel="stylesheet" type="text/css" href="static/Authenticationcss/main.css">
+</head>
+<div class="container-responsive">
+    <div class="row h-100">
+        <div class="col-7" style="background-size: cover;margin: 0 0 0 0; padding: 0; border:1px black solid ;">
+            
+                <img src="static/Authenticationimages/final.jpg" class="img-responsive" style="height:100%; width:100%;min-height: max-content; position: relative;">
+        
+        </div>
+   
+        <div class="col-5" style="border: 1px black solid;">
+            <div class="row h-100 align-items-center">
+                <form class="login100-form validate-form col-12" >
+                    <div class="row justify-content-center align-items-center">   
+                        <span class="col-12 login100-form-title p-b-34">
+                            Account Signup
+                        </span>
+                    </div>
+                    <div class="row justify-content-center">   
+                        <div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20 col-10" data-validate="Type user name">
+                            <input id="first-name" class="input100" type="email" name="email" placeholder="Email" required>
+                            <span class="focus-input100"></span>
+                        </div>
+                    
+                        <div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20 col-10" data-validate="Type password">
+                            <input class="input100" type="password" name="pass" placeholder="Password" required>
+                            <span class="focus-input100"></span>
+                        </div>
+                        <div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20 col-10" data-validate="Type password">
+                            <input class="input100" type="password" name="conf_pass" placeholder="Confirm Password" required>
+                            <span class="focus-input100"></span>
+                        </div>
+                        
+                        <div class="container-login100-form-btn col-10">
+                            <button class="login100-form-btn">
+                                Sign up
+                            </button>
+                        </div>
+
+                        
+
+                        <div class="w-full text-center p-t-45">
+                            <a href="{{ url_for('.login') }}" class="txt3">
+                                Log In
+                            </a>
+                        </div>
+                    </div>
+                </form>
+        </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

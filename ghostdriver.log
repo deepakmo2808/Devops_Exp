@@ -1,0 +1,73 @@
+[INFO  - 2021-01-17T16:25:11.050Z] GhostDriver - Main - running on port 59552
+[INFO  - 2021-01-17T16:25:11.496Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-01-17T16:25:11.496Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.customHeaders:  - {}
+[INFO  - 2021-01-17T16:25:11.497Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-01-17T16:25:11.497Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 92458400-58e0-11eb-a9f9-9b8675409b57
+[ERROR - 2021-01-17T16:25:17.788Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'performance.mark("gpt-first-ad-request")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:17.789Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - stack:
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021010903.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:18.674Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - msg: Unhandled promise rejection ChunkLoadError: Loading chunk 12 failed.
+(missing: https://static.klaviyo.com/onsite/js/vendors~signupForms.e9c61a962a8ec6bfee42.js)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:18.675Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - stack:
+  (anonymous function) (https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=LWTbHf:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:20.691Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:20.691Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - stack:
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  __webpack_require__ (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  __webpack_require__ (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  __webpack_require__ (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  __webpack_require__ (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:20.911Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new b')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:20.911Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - stack:
+  (anonymous function) (https://cdn.ampproject.org/rtv/012010270040000/amp4ads-v0.js:59)
+  (anonymous function) (https://cdn.ampproject.org/rtv/012010270040000/amp4ads-v0.js:59)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:40.567Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - msg: Unhandled promise rejection ChunkLoadError: Loading chunk 12 failed.
+(missing: https://static.klaviyo.com/onsite/js/vendors~signupForms.e9c61a962a8ec6bfee42.js)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:40.568Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - stack:
+  (anonymous function) (https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=LWTbHf:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:40.840Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'performance.mark("gpt-first-ad-request")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:40.840Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - stack:
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021010903.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:40.969Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-01-17T16:25:40.969Z] Session [92458400-58e0-11eb-a9f9-9b8675409b57] - page.onError - stack:
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  __webpack_require__ (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  __webpack_require__ (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  __webpack_require__ (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  __webpack_require__ (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+  (anonymous function) (https://cds.connatix.com/p/92215/connatix.playspace.es5.js:1)
+
+  phantomjs://platform/console++.js:263 in error
