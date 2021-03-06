@@ -24,7 +24,6 @@ Jinja2==2.11.2
 joblib==0.17.0
 Keras
 Keras-Preprocessing
-kiwisolve
 Mako
 Markdown==3.3.3
 MarkupSafe==1.1.1
